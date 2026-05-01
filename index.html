@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>BRF Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>BRF Solrosen 🌼</h1>
+
+    <div class="cards">
+      <div class="card">
+        <h2>Saldo</h2>
+        <p>1 250 000 kr</p>
+      </div>
+
+      <div class="card">
+        <h2>Avgifter</h2>
+        <p>Senaste: April</p>
+      </div>
+
+      <div class="card">
+        <h2>Ärenden</h2>
+        <p id="count">0 st</p>
+      </div>
+    </div>
+
+    <div class="issues">
+      <h2>Pågående ärenden</h2>
+      <ul id="list"></ul>
+      <button onclick="addIssue()">+ Lägg till ärende</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
