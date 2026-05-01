@@ -1,11 +1,24 @@
-# BRF Styrelseöversikt
+# BRF Dashboard UI
 
-Ett enkelt frontend-projekt som visar en dashboard för en bostadsrättsförening.
+Detta är ett frontend-projekt som simulerar en modern SaaS-dashboard för fastighetsförvaltning.
 
-Funktioner:
-- Översikt av saldo och avgifter
-- Lista med ärenden
-- Möjlighet att lägga till nya ärenden
+## 🧠 Syfte
+Projektet är skapat för att öva på frontend-utveckling och UI-design med fokus på produktliknande gränssnitt inspirerade av moderna SaaS-verktyg.
 
-Byggt med:
-HTML, CSS, JavaScript
+## 💻 Teknik
+- HTML
+- CSS
+- JavaScript
+
+## ✨ Funktioner
+- Dashboard med KPI-kort
+- Ärendehantering
+- AI-inspirerad insiktsmodul
+- Responsiv layout
+- Modern UI-design (SaaS-stil)
+
+## 🚀 Fokus
+Fokus har varit att skapa en tydlig och modern användarupplevelse snarare än backend-funktionalitet.
+
+## 👤 Skapad av
+Alicia
