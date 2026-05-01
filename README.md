@@ -1,4 +1,4 @@
-# BRF Dashboard
+# BRF Styrelseöversikt
 
 Ett enkelt frontend-projekt som visar en dashboard för en bostadsrättsförening.
 
