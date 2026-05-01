@@ -2,37 +2,58 @@
 <html lang="sv">
 <head>
   <meta charset="UTF-8">
-  <title>BRF Dashboard</title>
+  <title>BRF Styrelseöversikt</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <div class="container">
-    <h1>BRF Solrosen 🌼</h1>
+    <header class="topbar">
+  <div class="logo">🏡 Boluna Demo</div>
+  <div class="user">Alicia</div>
+</header>
 
-    <div class="cards">
-      <div class="card">
-        <h2>Saldo</h2>
-        <p>1 250 000 kr</p>
-      </div>
+  <header class="header">
+    <h1>BRF Tallgläntan🌿</h1>
+    <span class="tag">Styrelseöversikt</span>
+  </header>
 
-      <div class="card">
-        <h2>Avgifter</h2>
-        <p>Senaste: April</p>
-      </div>
-
-      <div class="card">
-        <h2>Ärenden</h2>
-        <p id="count">0 st</p>
-      </div>
+  <section class="cards">
+    <div class="card">
+      <p class="label">💰 Saldo</p>
+      <h2>1 842 300 kr</h2>
+<span class="positive">+1.8% senaste månaden</span>
     </div>
 
-    <div class="issues">
-      <h2>Pågående ärenden</h2>
-      <ul id="list"></ul>
-      <button onclick="addIssue()">+ Lägg till ärende</button>
+    <div class="card">
+      <p class="label">📄 Avgifter</p>
+      <h2>4 250 kr</h2>
+<span>Genomsnitt per lägenhet</span>
     </div>
-  </div>
+
+    <div class="card">
+      <p class="label">🔧 Ärenden</p>
+      <h2 id="count">0</h2>
+      <span>Aktiva</span>
+    </div>
+  </section>
+
+  <section class="ai-box">
+  <h2 class="ai-title">🤖 Styrelseassistent</h2>
+  <p id="ai-text">Analyserar föreningens data...</p>
+  <button onclick="generateAI()">Generera insikt</button>
+</section>
+
+  <section class="issues">
+    <div class="issues-header">
+      <h2>🔧Ärenden</h2>
+      <button onclick="addIssue()">+ Nytt ärende</button>
+    </div>
+
+    <ul id="list"></ul>
+  </section>
+
+</div>
 
   <script src="script.js"></script>
 </body>
